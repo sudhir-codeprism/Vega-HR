@@ -58,7 +58,8 @@ letter-spacing: 0.1px;
     margin-left: 277px;
 }
 .heading{
-    font-size: 45px;
+    font-size: 41px;
+    font-weight: bold;
 }
 
 .card-box{
@@ -81,12 +82,13 @@ letter-spacing: 0.1px;
   .top-center {
     position: absolute;
     top: 8px;
-    -webkit-user-modify: read-write-plaintext-only;
-    font-size: 54px;
+    /* -webkit-user-modify: read-write-plaintext-only; */
+    font-size: 42px;
+    font-weight: bold;
   }
   .multi-card{
     position: absolute;
-    top: 350px;
+    top: 250px;
     right: 0px;
     direction: rtl;
   }
@@ -96,7 +98,8 @@ letter-spacing: 0.1px;
   }
   
   .card11{
-      padding: 20% 0px;
+      padding: 13% 0px;
+      font-size: 18px;
       
   }
 
@@ -177,9 +180,9 @@ html {
   .main-content{
       display: flex;
   }
-  .navbar{
+  /* .navbar{
     width: 689px;
-  }
+  } */
   .bg-image{
     width: 540px;
   }
