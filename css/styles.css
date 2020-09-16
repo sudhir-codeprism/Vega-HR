@@ -217,7 +217,15 @@ html {
       right: -108px;
     }
     .try1{
-        right: -19px;
+        right: -17px;
+    }
+   
+    .card-box1{
+        width: 270px;
+    }
+    .dis{
+        display: block;
+        margin-left: 10px !important;
     }
   }
 
