@@ -209,4 +209,19 @@ html {
   .multi-card{
       display: none;
   }
+  .heading11{
+      display: inline-table;
   }
+  .try{
+      display: block;
+      right: -108px;
+    }
+    .try1{
+        right: -19px;
+    }
+  }
+
+
+
+
+  
