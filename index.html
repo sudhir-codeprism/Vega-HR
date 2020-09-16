@@ -44,12 +44,36 @@
                         <a href="#" class="nav-link hover-link"> Resources</a>
                     </li>
 
-                    <button type="button" data-toggle="modal" data-target="#employee-modal" class="btn try">TRY US FOR FREE</button>
+                    <button type="button" id="myBtn"  class="btn try">TRY US FOR FREE</button>
                 </ul>
             </div>
         </div>
     </nav>
 
+    
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  
+  <div class="modal-content bg-light animated flipInY">
+      <div class="bg-dark text-white">
+        <span class="close">&times;</span>
+    <h3>Subscribe to the latest blog articles, videos, and webinars from Vega HR</h3>
+   
+
+</div>
+                  <form>
+
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email Address">
+        </div>
+     
+        <input type="submit" value="Submit" class="btn btn-warning subs-but">
+  </div>
+
+</div>
 
     <div class="main-content">
         <div class='row'>
@@ -342,37 +366,38 @@
 
 
 </div>
-
-
 <div class="col-md-4">
-    <button class="btn btn-warning subs-but2" data-toggle="modal" data-target="#employee-modal">
+    <button class="btn btn-warning subs-but2" id="contactForm">
         <i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</button>
 </div>
 
+<div id="myModal1" class="modal">
 
- <!-- Contact Modal -->
- <div class="modal" id="employee-modal">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content animated flipInY">
-            <div class="modal-header subscribe-card text-white">
-                <h3>Subscribe to the latest blog articles, videos, and webinars from Vega HR</h3>
-                <button class="close" data-dismiss="modal">
-                    <i class="fa fa-times-circle text-white"></i>
-                </button>
-            </div>
-            <div class="modal-body bg-light">
-                <form>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email Address">
-                    </div>
-                 
-                    <a href="#" class="btn btn-dark" data-dismiss="modal">Close</a>
-                    <input type="submit" value="Submit" class="btn btn-warning subs-but">
-                </form>
-            </div>
-        </div>
+    <!-- Modal content -->
+    
+    <div class="modal-content bg-light animated flipInY">
+        <div class="bg-dark text-white">
+          <span class="close1">&times;</span>
+      <h3>Subscribe to the latest blog articles, videos, and webinars from Vega HR</h3>
+     
+  
+  </div>
+                    <form>
+  
+          <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email Address">
+          </div>
+       
+     
+          <input type="submit" value="Submit" class="btn btn-warning subs-but">
     </div>
-</div>
+  
+  </div>
+
+
+
+
+ 
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
